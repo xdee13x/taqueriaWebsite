@@ -1,0 +1,647 @@
+.banner {
+    
+    Width: 100%; 
+    background-color: dimgrey;
+    
+}
+
+.navWrap {
+    
+    width: 100%;
+    height: 60px;
+    background-color: darkgreen;
+
+}
+
+.button {
+    
+    width: 25%;
+    height: 55px;
+    float: left;
+    text-align: center;
+    background-color: saddlebrown;
+    color: d3ac86;
+    padding-top: 20px;
+    font-size: 30px;
+    font-family: baskerville;
+    
+}
+
+body {
+    
+    margin: 0px;
+    color: black;
+    font-family: arial;
+    
+}
+
+
+#emptyTop {
+    
+    height: 100%;
+    width: 100%;
+    background-color: darkred;
+    background-image: url(images/confetti3.gif);
+    
+}
+
+#enterButton {
+    
+    height: 45px;
+    width: 100%;
+    background-color: saddlebrown;
+    margin: 0 auto;
+    padding-top: 15px;
+    text-align: center;
+    font-family: arial;
+    font-size: 30px;
+    color: Black;
+ 
+}
+
+a {
+    
+    text-decoration: none;
+    
+}
+
+#home {
+    
+    background-color: white;
+    width: 950;
+    height: 1050px;
+    margin: 0 auto;
+}
+
+footer {
+    
+    background-color: saddlebrown;
+    width: 100%;
+    height: 250px;
+    padding-top: 100px;
+    
+}
+
+.social {
+    
+    width: 250px;
+    height:50px;
+    background-color: saddlebrown;
+    margin: auto;
+    
+}
+
+.social img {
+    
+    margin: 0px;
+    height: 50px;
+    width: 50px;
+    float: left;
+    
+}
+
+.social img:hover {
+    
+    margin: 0px;
+    height: 55px;
+    width: 50px;
+    
+}
+
+#hLeft{
+    
+    float: left;
+    margin-top: 80px;
+    margin-left: 70px;
+    height: 500px;
+    width: 400px;
+    
+}
+
+#hRight{
+    
+    float: left;
+    margin-top: 80px;
+    margin-left: 60px;
+    height: 500px;
+    width: 400px;
+    
+}
+
+#specials{
+    
+    float: left;
+    margin-top: 60px;
+    margin-left: 60px;
+    height: 300px;
+    width: 800px;
+    
+}
+#menuWrap {
+    
+    margin: 0 auto;
+    height: 400px;
+    width: 400px;
+    
+}
+
+.menuButtons {
+    
+    Height: 25px;
+    width: 400px;
+    border: solid 1px; 
+    background-color: lightgrey;
+    padding-left: 5px;
+    padding-top: 5px;
+    
+}
+
+h1 {
+    
+    font-family: baskerville;
+    text-align: center;
+    
+}
+
+#breakfast {
+    margin: 0 auto;
+    height: 400px;
+    width: 400px;
+}
+
+#lunch {
+    margin: 0 auto;
+    height: 500px;
+    width: 400px;
+}
+
+#dinner {
+    margin: 0 auto;
+    height: 650px;
+    width: 400px;
+}
+
+#alacarte {
+    margin: 0 auto;
+    height: 700px;
+    width: 400px;
+}
+
+#desserts {
+    margin: 0 auto;
+    height: 400px;
+    width: 400px;
+}
+
+#beverages {
+    margin: 0 auto;
+    height: 600px;
+    width: 400px;
+}
+
+#order {
+    
+    margin: 0 auto;
+    width: 800px;
+    height: 600px;
+    
+}
+
+
+
+
+
+.menuItem {
+    width:250;
+    float: left;
+    margin: 3px;
+}
+
+#map {
+    width: 550;
+    height: 500;
+    margin: 0 auto;
+    float: left;
+    
+}
+
+#mapWrap {
+    
+    height: 600;
+    width:1250;
+    margin: 0 auto;
+    
+}
+
+#mapWord {
+    
+    width:600;
+    Height:600;
+    float: left;
+    margin: 0 auto;
+    
+}
+
+#contact {
+    
+    margin: 0 auto;
+    width: 750;
+    height:600;
+    
+}
+
+#twitter {
+    width: 600;
+    Height: 320;
+    float: left;
+    overflow-y:auto;
+    margin-right: 10px;
+}
+
+#yelp {
+    width: 600;
+    Height: 300;
+    float: left;
+    overflow-y:auto;
+    margin-left: 10
+}
+
+#contactWrap {
+    margin: 0 auto;
+    width: 1250;
+    height:400;
+    
+}
+
+#page-wrap {
+	width: 660px;
+	background: white;
+	padding: 20px 50px 20px 50px;
+	margin: 20px auto;
+	min-height: 500px;
+	height: auto !important;
+	height: 500px;
+}
+
+#contact-area {
+	width: 600px;
+	margin-top: 25px;
+}
+
+#contact-area input, #contact-area textarea {
+	padding: 5px;
+	width: 471px;
+	font-family: Helvetica, sans-serif;
+	font-size: 1.4em;
+	margin: 0px 0px 10px 0px;
+	border: 2px solid #ccc;
+}
+
+#contact-area textarea {
+	height: 90px;
+}
+
+#contact-area textarea:focus, #contact-area input:focus {
+	border: 2px solid #900;
+}
+
+#contact-area input.submit-button {
+	width: 100px;
+	float: right;
+}
+
+label {
+	float: left;
+	text-align: right;
+	margin-right: 15px;
+	width: 100px;
+	padding-top: 5px;
+	font-size: 1.4em;
+}
+
+
+
+//******//
+
+@media screen and (max-width:899px){
+    
+    .banner {
+    
+    Width: 100%; 
+    background-color: dimgrey;
+    
+}
+
+.navWrap {
+    
+    width: 100%;
+    height: 60%;
+    background-color: darkgreen;
+
+}
+
+.button {
+    
+    width: 25%;
+    height: 55%;
+    float: left;
+    text-align: center;
+    background-color: saddlebrown;
+    color: d3ac86;
+    padding-top: 20%;
+    font-size: 30%;
+    font-family: baskerville;
+    
+}
+
+body {
+    
+    margin: 0;
+    color: black;
+    font-family: arial;
+    
+}
+
+
+#emptyTop {
+    
+    height: 100%;
+    width: 100%;
+    background-color: darkred;
+    background-image: url(images/confetti3.gif);
+    
+}
+
+#enterButton {
+    
+    height: 45%;
+    width: 100%;
+    background-color: saddlebrown;
+    margin: 0 auto;
+    padding-top: 15;
+    text-align: center;
+    font-family: arial;
+    font-size: 30%;
+    color: Black;
+ 
+}
+
+a {
+    
+    text-decoration: none;
+    
+}
+
+#home {
+    
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+footer {
+    
+    background-color: saddlebrown;
+    width: 100%;
+    height: 30%;
+    padding-top: 100px;
+    
+}
+
+.social {
+    
+    width: 30%;
+    height:20%;
+    background-color: saddlebrown;
+    margin: auto;
+    
+}
+
+.social img {
+    
+    margin: 0px;
+    height: 30%;
+    width: 20%;
+    float: left;
+    
+}
+
+.social img:hover {
+    
+    margin: 0px;
+    height: 25%;
+    width: 20%;
+    
+}
+
+#hLeft{
+    
+    float: left;
+    margin-top: 80px;
+    margin-left: 70px;
+    height: 50%;
+    width: 40%;
+    
+}
+
+#hRight{
+    
+    float: left;
+    margin-top: 80px;
+    margin-left: 60px;
+    height: 50%;
+    width: 40%;
+    
+}
+
+#specials{
+    
+    float: left;
+    margin-top: 60px;
+    margin-left: 60px;
+    height: 30%;
+    width: 80%;
+    
+}
+#menuWrap {
+    
+    margin: 0 auto;
+    height: 40%;
+    width: 40%;
+    
+}
+
+.menuButtons {
+    
+    Height: 10%;
+    width: 40%%;
+    border: solid 1px; 
+    background-color: lightgrey;
+    padding-left: 5px;
+    padding-top: 5px;
+    
+}
+
+h1 {
+    
+    font-family: baskerville;
+    text-align: center;
+    
+}
+
+#breakfast {
+    margin: 0 auto;
+    height: 40%;
+    width: 40%;
+}
+
+#lunch {
+    margin: 0 auto;
+    height: 50%;
+    width: 40%;
+}
+
+#dinner {
+    margin: 0 auto;
+    height: 65%;
+    width: 40%;
+}
+
+#alacarte {
+    margin: 0 auto;
+    height: 70%;
+    width: 40%;
+}
+
+#desserts {
+    margin: 0 auto;
+    height: 40%;
+    width: 40%;
+}
+
+#beverages {
+    margin: 0 auto;
+    height: 60%;
+    width: 40%;
+}
+
+#order {
+    
+    margin: 0 auto;
+    width: 80%;
+    height: 60%;
+    
+}
+
+
+
+
+
+.menuItem {
+    width:25%;
+    float: left;
+    margin: 3px;
+}
+
+#map {
+    width: 55%;
+    height: 50%;
+    margin: 0 auto;
+    float: left;
+    
+}
+
+#mapWrap {
+    
+    height: 60%;
+    width:100%%%;
+    margin: 0 auto;
+    
+}
+
+#mapWord {
+    
+    width:60%%;
+    Height:60%%;
+    float: left;
+    margin: 0 auto;
+    
+}
+
+#contact {
+    
+    margin: 0 auto;
+    width: 75%%;
+    height:60%%;
+    
+}
+
+#twitter {
+    width: 60%;
+    Height: 40%;
+    float: left;
+    overflow-y:auto;
+}
+
+#yelp {
+    width: 50%;
+    Height: 30%;
+    float: left;
+    padding-left: 70;
+}
+
+#contactWrap {
+    margin: 0 auto;
+    width: 100%;
+    height:40%;
+    
+}
+
+#page-wrap {
+	width: 66%px;
+	background: white;
+	padding: 20px 50px 20px 50px;
+	margin: 20px auto;
+	min-height: 50%;
+	height: auto !important;
+	height: 50%;
+}
+
+#contact-area {
+	width: 60%;
+	margin-top: 25%;
+}
+
+#contact-area input, #contact-area textarea {
+	padding: 5px;
+	width: 47%;
+	font-family: Helvetica, sans-serif;
+	font-size: 1.4em;
+	margin: 0px 0px 10px 0px;
+	border: 2px solid #ccc;
+}
+
+#contact-area textarea {
+	height: 9%;
+}
+
+#contact-area textarea:focus, #contact-area input:focus {
+	border: 2px solid #900;
+}
+
+#contact-area input.submit-button {
+	width: 10%;
+	float: right;
+}
+
+label {
+	float: left;
+	text-align: right;
+	margin-right: 15px;
+	width: 10%;
+	padding-top: 5px;
+	font-size: 1.4em;
+}
+}
+
